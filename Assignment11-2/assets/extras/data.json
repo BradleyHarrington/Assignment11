@@ -1,0 +1,122 @@
+{"employees":[
+    {
+        "id":"1",
+        "name":"James King", 
+        "title":"President and CEO",
+        "imagepath":"data/images/james_king.jpg",
+        "officenumber":"555-555-0001",
+        "cellnumber":"555-555-1001",
+        "email":"james.king@data.com",
+        "reportsto":""
+    },
+    {
+        "id":"2",
+        "name":"Paul Jones", 
+        "title":"QA Manager",
+        "imagepath":"data/images/paul_jones.jpg",
+        "officenumber":"555-555-0002",
+        "cellnumber":"555-555-1002",
+        "email":"paul.jones@data.com",
+        "reportsto":"1"
+    },
+    {
+        "id":"3",
+        "name":"Julie Taylor", 
+        "title":"VP of Marketing",
+        "imagepath":"data/images/julie_taylor.jpg",
+        "officenumber":"555-555-0003",
+        "cellnumber":"555-555-1003",
+        "email":"julie.taylor@data.com",
+        "reportsto":"1"
+    },
+    {
+        "id":"4",
+        "name":"John Williams", 
+        "title":"VP of Engineering",
+        "imagepath":"data/images/john_williams.jpg",
+        "officenumber":"555-555-0004",
+        "cellnumber":"555-555-1004",
+        "email":"john.williams@data.com",
+        "reportsto":"1"
+    },
+    {
+        "id":"5",
+        "name":"Amy Jones", 
+        "title":"Sales Representative",
+        "imagepath":"data/images/amy_jones.jpg",
+        "officenumber":"555-555-0005",
+        "cellnumber":"555-555-1005",
+        "email":"amy.jones@data.com",
+        "reportsto":"1"
+    },
+    {
+        "id":"6",
+        "name":"Paula Gates", 
+        "title":"Software Architect",
+        "imagepath":"data/images/paula_gates.jpg",
+        "officenumber":"555-555-0006",
+        "cellnumber":"555-555-1006",
+        "email":"paula.gates@data.com",
+        "reportsto":"4"
+    },
+    {
+        "id":"7",
+        "name":"Steven Wells", 
+        "title":"Software Architect",
+        "imagepath":"data/images/steven_wells.jpg",
+        "officenumber":"555-555-0007",
+        "cellnumber":"555-555-1007",
+        "email":"steven.wells@data.com",
+        "reportsto":"4"
+    },
+    {
+        "id":"8",
+        "name":"Eugene Lee", 
+        "title":"Software Architect",
+        "imagepath":"data/images/eugene_lee.jpg",
+        "officenumber":"555-555-0008",
+        "cellnumber":"555-555-1008",
+        "email":"eugene.lee@data.com",
+        "reportsto":"4"
+    },
+    {
+        "id":"9",
+        "name":"Gary Donovan", 
+        "title":"Software Architect",
+        "imagepath":"data/images/gary_donovan.jpg",
+        "officenumber":"555-555-0009",
+        "cellnumber":"555-555-1009",
+        "email":"gary.donovan@data.com",
+        "reportsto":"4"
+    },
+    {
+        "id":"10",
+        "name":"Kathleen Byrne", 
+        "title":"Sales Associate",
+        "imagepath":"data/images/kathleen_byrne.jpg",
+        "officenumber":"555-555-0010",
+        "cellnumber":"555-555-1010",
+        "email":"kathleen.byrne@data.com",
+        "reportsto":"5"
+    },
+    {
+        "id":"11",
+        "name":"Lisa Wong", 
+        "title":"Sales Associate",
+        "imagepath":"data/images/lisa_wong.jpg",
+        "officenumber":"555-555-0011",
+        "cellnumber":"555-555-1011",
+        "email":"lisa.wong@data.com",
+        "reportsto":"5"
+    },
+    {
+        "id":"12",
+        "name":"Ray Moore", 
+        "title":"Sales Associate",
+        "imagepath":"data/images/ray_moore.jpg",
+        "officenumber":"555-555-0012",
+        "cellnumber":"555-555-1012",
+        "email":"ray.moore@data.com",
+        "reportsto":"5"
+    }
+]}

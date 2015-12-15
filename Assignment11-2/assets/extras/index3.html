@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>jQuery Mobile: Theme Download</title>
+	
+	
+	
+	<link rel="stylesheet" href="css/purpleData.min.css" />
+	<link rel="stylesheet" href="css/jquery.mobile.icons.min.css" />
+	<link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.5/jquery.mobile.structure-1.4.5.min.css" />
+	<link rel="stylesheet" href="css/style.css" />
+	<script src="http://code.jquery.com/jquery-2.1.4.min.js"></script>
+	<script src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+<!--	<script src="js/home.js"></script>-->
+<!--	<script src="js/detail.js"></script>-->
+	<script>
+    $(document).on("mobileinit", function(evt) {
+    	alert("Mobile initialization event fired");
+
+    	// Change some settings
+    	$.mobile.defaultPageTransition = "slide";
+    	$.mobile.pageLoadErrorMessage = "Whoops!";
+    	$.mobile.pageLoadErrorMessageTheme = "b";
+    });
+    </script>
+	
+	
+
+</head>
+<body data-brackets-id="6082" class="ui-mobile-viewport ui-overlay-a">
+
+// ----------------------------------------  Page 1: Homepage Directory
+<div data-brackets-id="6083" data-role="page" id="home" data-url="home" tabindex="0" class="ui-page ui-page-theme-a ui-page-footer-fixed" style="padding-bottom: 45px; min-height: 1003px;">
+   	<header data-brackets-id="6084" data-role="header" role="banner" class="ui-header ui-bar-inherit"><h1 data-brackets-id="6085" class="ui-title" role="heading" aria-level="1">Directory</h1></header>
+   	<section data-brackets-id="6086" data-role="content" class="ui-content" role="main">
+        <form data-brackets-id="6087" class="ui-filterable" id="attempt">
+            <div class="ui-input-search ui-body-inherit ui-corner-all ui-shadow-inset ui-input-has-clear"><input data-brackets-id="6088" id="filterBasic-input" data-type="search" data-lastval="lee"><a href="#" tabindex="-1" aria-hidden="true" class="ui-input-clear ui-btn ui-icon-delete ui-btn-icon-notext ui-corner-all" title="Clear text">Clear text</a></div>
+        </form>
+        <ul data-brackets-id="6089" data-role="listview" data-filter="true" data-input="#filterBasic-input" id="result" class="ui-listview"><li class="ui-screen-hidden ui-li-has-thumb"><a href="#details" class="ui-btn ui-btn-icon-right ui-icon-carat-r"><img src="data/images/james_king.jpg"><h2>James King</h2><p>President and CEO</p></a></li><li class="ui-screen-hidden ui-li-has-thumb"><a href="#details" class="ui-btn ui-btn-icon-right ui-icon-carat-r"><img src="data/images/paul_jones.jpg"><h2>Paul Jones</h2><p>QA Manager</p></a></li><li class="ui-screen-hidden ui-li-has-thumb"><a href="#details" class="ui-btn ui-btn-icon-right ui-icon-carat-r"><img src="data/images/julie_taylor.jpg"><h2>Julie Taylor</h2><p>VP of Marketing</p></a></li><li class="ui-screen-hidden ui-li-has-thumb"><a href="#details" class="ui-btn ui-btn-icon-right ui-icon-carat-r"><img src="data/images/john_williams.jpg"><h2>John Williams</h2><p>VP of Engineering</p></a></li><li class="ui-screen-hidden ui-li-has-thumb"><a href="#details" class="ui-btn ui-btn-icon-right ui-icon-carat-r"><img src="data/images/amy_jones.jpg"><h2>Amy Jones</h2><p>Sales Representative</p></a></li><li class="ui-screen-hidden ui-li-has-thumb"><a href="#details" class="ui-btn ui-btn-icon-right ui-icon-carat-r"><img src="data/images/paula_gates.jpg"><h2>Paula Gates</h2><p>Software Architect</p></a></li><li class="ui-screen-hidden ui-li-has-thumb"><a href="#details" class="ui-btn ui-btn-icon-right ui-icon-carat-r"><img src="data/images/steven_wells.jpg"><h2>Steven Wells</h2><p>Software Architect</p></a></li><li class="ui-li-has-thumb ui-first-child"><a href="#details" class="ui-btn ui-btn-icon-right ui-icon-carat-r"><img src="data/images/eugene_lee.jpg"><h2>Eugene Lee</h2><p>Software Architect</p></a></li><li class="ui-screen-hidden ui-li-has-thumb"><a href="#details" class="ui-btn ui-btn-icon-right ui-icon-carat-r"><img src="data/images/gary_donovan.jpg"><h2>Gary Donovan</h2><p>Software Architect</p></a></li><li class="ui-li-has-thumb ui-last-child"><a href="#details" class="ui-btn ui-btn-icon-right ui-icon-carat-r"><img src="data/images/kathleen_byrne.jpg"><h2>Kathleen Byrne</h2><p>Sales Associate</p></a></li><li class="ui-screen-hidden ui-li-has-thumb"><a href="#details" class="ui-btn ui-btn-icon-right ui-icon-carat-r"><img src="data/images/lisa_wong.jpg"><h2>Lisa Wong</h2><p>Sales Associate</p></a></li><li class="ui-screen-hidden ui-li-has-thumb"><a href="#details" class="ui-btn ui-btn-icon-right ui-icon-carat-r"><img src="data/images/ray_moore.jpg"><h2>Ray Moore</h2><p>Sales Associate</p></a></li></ul>
+       
+        <hr data-brackets-id="6090">
+        <div data-brackets-id="6091" id="homewrap" style="display: none;">
+        <h3 data-brackets-id="6092">Welcome to Directory!</h3>
+        <p data-brackets-id="6093">This is a sample app that demonstrates how to build applications with                 jQuery Mobile</p>
+        </div>
+   	</section>
+   	<footer data-brackets-id="6094" data-role="footer" data-position="fixed" role="contentinfo" class="ui-footer ui-bar-inherit ui-footer-fixed slideup"><h4 data-brackets-id="6095" class="ui-title" role="heading" aria-level="1">Footer</h4></footer>
+</div>
+// ----------------------------------------  End of Page 1: Homepage
+
+
+
+
+// ----------------------------------------  Page 2: Employee Details      	
+<div data-brackets-id="6096" data-role="page" id="details" data-url="details" tabindex="0" class="ui-page ui-page-theme-a ui-page-footer-fixed ui-page-active" style="padding-bottom: 45px; min-height: 511px;">
+   	<header data-brackets-id="6097" data-role="header" role="banner" class="ui-header ui-bar-inherit">
+   	    <h1 data-brackets-id="6098" class="ui-title" role="heading" aria-level="1">Employee Details</h1>
+   	    <a data-brackets-id="6099" href="#home" data-role="button" data-direction="reverse" data-icon="back" class="ui-link ui-btn-left ui-btn ui-icon-back ui-btn-icon-left ui-shadow ui-corner-all" role="button">back</a>
+
+   	</header>
+   	<section data-brackets-id="6100" data-role="content" class="ui-content" role="main">
+   		<ul data-brackets-id="6101" data-role="listview" id="detailsresult" data-inset="true" class="ui-listview ui-listview-inset ui-corner-all ui-shadow"><li id="employee"><a href="#"><img src="data/images/kathleen_byrne.jpg"><h2>Kathleen Byrne</h2><p>Sales Associate</p></a></li><li><a href="#" id="vmanager"><h3>View Manager</h3><p>Managers name</p></a></li><li><a href="#"><h3>View Direct Reports</h3><p># that report</p></a></li><li><a href="tel:555-555-0010" data-rel="external"><h3>Call Office</h3><p>555-555-0010</p></a></li><li><a href="tel:555-555-1010" data-rel="external"><h3>Call Office</h3><p>555-555-1010</p></a></li></ul>
+   	</section>
+   	<footer data-brackets-id="6102" data-role="footer" data-position="fixed" role="contentinfo" class="ui-footer ui-bar-inherit ui-footer-fixed slideup"><h4 data-brackets-id="6103" class="ui-title" role="heading" aria-level="1">Footer</h4></footer>
+</div>
+// ----------------------------------------  End of Page 2: Employee Details   
+
+
+
+
+// ----------------------------------------  Page 3: Direct Reports 
+<div data-brackets-id="6104" data-role="page" id="reports" data-url="reports">
+   	<header data-brackets-id="6105" data-role="header"><h1 data-brackets-id="6106">Direct Reports</h1></header>
+   	<section data-brackets-id="6107" data-role="content">
+   		<ul data-brackets-id="6108" data-role="listview" id="reportsresult">
+            
+        </ul>
+   	</section>
+   	<footer data-brackets-id="6109" data-role="footer" data-position="fixed"><h4 data-brackets-id="6110">Footer</h4></footer>
+</div>
+// ----------------------------------------  Page 3: Direct Reports
+
+   	   	
+<!--
+<div data-role="page" id="contact">
+   	<header data-role="header"><h1>About</h1></header>
+   	<section data-role="content">
+   		<p>The page content</p>
+   	</section>
+   	<footer data-role="footer"><h4>Footer</h4></footer>
+</div>
+-->
+    
+
+<div class="ui-loader ui-corner-all ui-body-a ui-loader-default"><span class="ui-icon-loading"></span><h1>loading</h1></div></body>
+</html>
